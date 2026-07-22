@@ -1,17 +1,39 @@
 # 🌦️ Weather App
 
-A simple Python-based Weather App that fetches real-time weather information using the **OpenWeather API**. This project is part of my **90 Days of Coding** challenge to learn Python, APIs, and software development.
+A Python-based Weather App that fetches real-time weather information using the **OpenWeather API**. This project is part of my **90 Days of Coding** challenge to strengthen my Python skills and learn APIs, JSON, and software development.
+
+---
+
+## 🚀 90 Days of Coding
+
+This project is part of my **90 Days of Coding** challenge where I build projects to improve my programming skills and prepare for AI & Data Science.
+
+- 📅 **Project Started:** Day 8
+- 📅 **Current Progress:** Day 9
+- 🚧 **Project Status:** In Progress
 
 ---
 
 ## 📌 Features
 
-- 🌍 Get current weather by entering a city name
-- 🌡️ Display temperature in Celsius
+### ✅ Completed
+
+- 🌍 Search weather by city name
+- 🔗 Fetch real-time weather data using the OpenWeather API
+- 📡 Send HTTP GET requests using the `requests` library
+- 📦 Parse JSON responses received from the API
+- 🛡️ Check API response using HTTP status codes
+- ⚠️ Basic error handling for failed API requests
+
+### 🚧 Coming Soon
+
+- 🌡️ Display temperature
 - ☁️ Display weather condition
 - 💧 Display humidity
 - 💨 Display wind speed
-- 🚨 Handle invalid city names and API errors
+- 🤒 Display "Feels Like" temperature
+- 📍 Display country information
+- Better formatted weather report
 
 ---
 
@@ -28,42 +50,43 @@ A simple Python-based Weather App that fetches real-time weather information usi
 
 ```
 WEATHER-APP/
-│── main.py             # Main application
-│── config.py           # Stores API key (not uploaded to GitHub)
-│── requirements.txt    # Project dependencies
-│── README.md           # Project documentation
-└── screenshots/        # Application screenshots
+│── main.py
+│── config.py          # Stores API key (not uploaded to GitHub)
+│── requirements.txt
+│── README.md
+│── .gitignore
+└── screenshots/
 ```
 
 ---
 
 ## ⚙️ Installation
 
-1. Clone this repository:
+### 1. Clone the repository
 
 ```bash
 git clone <your-github-repository-link>
 ```
 
-2. Move into the project folder:
+### 2. Navigate to the project folder
 
 ```bash
 cd WEATHER-APP
 ```
 
-3. Install the required library:
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Create a file named `config.py` and add your OpenWeather API key:
+### 4. Create `config.py`
 
 ```python
 API_KEY = "YOUR_API_KEY"
 ```
 
-5. Run the application:
+### 5. Run the application
 
 ```bash
 python main.py
@@ -71,42 +94,60 @@ python main.py
 
 ---
 
-## 📸 Sample Output
+## 📸 Current Output
 
 ```
 Enter city name: Kochi
 
-Weather in Kochi
---------------------------
-Temperature : 29°C
-Condition   : Broken Clouds
-Humidity    : 82%
-Wind Speed  : 3.5 m/s
+Request Successful!
 ```
+
+*(The application is currently being developed. Detailed weather information will be displayed in the next stage of the project.)*
 
 ---
 
 ## 📚 Concepts Learned
 
-- Working with APIs
-- REST API fundamentals
-- HTTP GET requests
-- JSON parsing
-- Status codes
-- Python dictionaries and lists
-- Error handling
-- Git and GitHub
+- Python Modules
+- APIs
+- REST APIs
+- HTTP Requests
+- GET Requests
+- API Keys
+- JSON
+- JSON Parsing
+- Python Dictionaries
+- Python Lists
+- Status Codes
+- Error Handling
+- Git & GitHub
+
+---
+
+## 🎯 Learning Outcomes
+
+Through this project, I learned how to:
+
+- Connect a Python application to a real-world API
+- Send HTTP GET requests
+- Understand API responses
+- Work with JSON data
+- Extract information from nested dictionaries and lists
+- Organize a Python project using multiple files
+- Secure API keys using `config.py` and `.gitignore`
 
 ---
 
 ## 🚀 Future Improvements
 
-- 🌤️ 5-day weather forecast
-- 📍 Detect current location automatically
-- ❤️ Save favourite cities
-- 📊 Search history
-- 🖥️ Graphical User Interface (GUI)
-- 🌐 Better error messages
+- 🌡️ Display complete weather information
+- 🌤️ 5-Day Weather Forecast
+- 📍 Current Location Weather
+- ❤️ Favourite Cities
+- 📊 Search History
+- 🖥️ GUI using Tkinter
+- 🌐 Improved error handling
+- 🎨 Better user interface
 
 ---
 
@@ -116,8 +157,10 @@ Wind Speed  : 3.5 m/s
 
 B.Tech in Artificial Intelligence & Data Science
 
-Learning Python through a **90 Days of Coding** challenge.
+Building projects through a **90 Days of Coding** challenge.
 
 ---
 
-⭐ If you found this project interesting, feel free to star the repository!
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
